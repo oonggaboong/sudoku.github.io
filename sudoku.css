@@ -1,0 +1,86 @@
+body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+hr {
+  max-width: 500px;
+}
+
+#errors {
+  color: coral;
+}
+
+#board {
+  width: 360px;
+  height: 360px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: 36px;
+  height: 36px;
+  border: 1px solid lightgray;
+
+  /* Text */
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#digits {
+  width: 360px;
+  height: 40px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number {
+  width: 33px;
+  height: 33px;
+  border: 1px solid black;
+  margin: 1.5px;
+  text-align: center;
+  /* Text */
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-selected {
+  background-color: gray;
+}
+
+.tile-start {
+  background-color: whitesmoke;
+}
+
+.horizontal-line {
+  border-bottom: 1px solid black;
+}
+
+.vertical-line {
+  border-right: 1px solid black;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+.gameboard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
